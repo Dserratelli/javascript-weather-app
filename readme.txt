@@ -1,0 +1,1 @@
+A functional weather app made with javascript to display temperature, wind direction and speed, percent of humidity, and an icon to accompany different weather conditions. Updated by location or zipcode to give accurate weather in your area.

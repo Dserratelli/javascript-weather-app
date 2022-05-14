@@ -54,10 +54,11 @@ function degreesToDirection (degrees){
     var angles = ["N", "NNE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W",  "WNW", "NW", "NNW"]
     for( i in angles){
 
-        if(degrees >= low && < high)
-            retuen angles[i]
+        if(degrees >= low && < high){
+            return angles[i]
         low = (low + range) % 360;
         high = (high + range) % 360;
+        
     }
     return "n"
 }
